@@ -151,70 +151,82 @@ Fields explained:
 
 # 5) Group Management
 ## Add Group
-Command:
-groupadd goal1
-cat /etc/group
 
+![Screenshot from 2024-11-29 13-07-52](https://github.com/user-attachments/assets/0b24f50e-1c38-4032-8592-0f99482b6c73)
 
+![Screenshot from 2024-11-29 13-10-28](https://github.com/user-attachments/assets/69ef58dd-459a-478f-a5d4-5db512467e65)
+
+![Screenshot from 2024-11-29 13-11-28](https://github.com/user-attachments/assets/1cf8cbda-b761-4c97-98a0-c733b80b8428)
 
 
 ## Delete Group
-Command: groupdel goal1
+
+![Screenshot from 2024-11-29 13-15-51](https://github.com/user-attachments/assets/7e911f4b-35ac-43e5-a57a-e61e77ef1638)
+
 
 
 ## Modify Group ID
-Command: groupmod -g 1232 goal1
+
+![Screenshot from 2024-11-29 13-12-41](https://github.com/user-attachments/assets/ba31edee-3dc6-4d6d-b9ad-2e73da747f9b)
+
+![Screenshot from 2024-11-29 13-12-59](https://github.com/user-attachments/assets/3666efed-a63f-4dec-86da-d18e4ba5355b)
+
 
 
 ## Change User's Primary Group
-Commands:
-cat /etc/passwd
-groups varun
-usermod -g goal1 varun
 
+![Screenshot from 2024-11-29 13-18-18](https://github.com/user-attachments/assets/043d49ba-f162-4112-a6d2-90941a377362)
 
+![Screenshot from 2024-11-29 13-18-33](https://github.com/user-attachments/assets/c1f8a4b0-0559-430d-872b-ef41af5d70dc)
 
+![Screenshot from 2024-11-29 13-20-36](https://github.com/user-attachments/assets/193cf6cb-5bd7-4064-b218-fae582baaf82)
 
 ## Add User to Additional Groups
-Command: gpasswd -g A1 -a varun
+
+![Screenshot from 2024-11-29 13-26-22](https://github.com/user-attachments/assets/491c6319-427b-43a6-8ac1-ca2df6f6b9fd)
+
+![Screenshot from 2024-11-29 13-28-15](https://github.com/user-attachments/assets/1011ea49-f973-4af0-ae8a-4dff3b5f8c04)
+
 
 
 ## Remove User from Group
-Command: gpasswd -g A1 -d varun
+
+![Screenshot from 2024-11-29 13-29-21](https://github.com/user-attachments/assets/f64b99a9-71c1-4653-8d6f-e19cd353e49b)
 
 
 ## Add Multiple Users to a Group
-Command:
-gpasswd -M sam,tom,rj,jack goal1
-group sam
-group tom
-group rj
 
-
-
+![Screenshot from 2024-11-29 13-33-43](https://github.com/user-attachments/assets/9c793679-3853-440d-a68e-65086bc4bf71)
 
 ## Check Group Members
-Command: groupmems -l -g goal1
+
+![Screenshot from 2024-11-29 13-34-51](https://github.com/user-attachments/assets/b9b73292-e477-4018-9072-1f9bd90a9bcb)
+
 
 
 ## Add User to Multiple Groups
-Command:
-useradd jj
-usermod -G a1,b1,c1 -a jj
-groups jj
 
-
-
+![Screenshot from 2024-11-29 13-36-54](https://github.com/user-attachments/assets/05a88e1f-3eb1-4590-9671-b4a8361c6466)
 
 ## Change Group Name
-Command: groupmod -n goold goal1
+
+![Screenshot from 2024-11-29 13-38-42](https://github.com/user-attachments/assets/7838ede9-ae71-4ad0-8e6a-cbd323bbfb7b)
 
 
 # 6) Assign Permissions for User Management
+
+![Screenshot from 2024-11-29 13-41-02](https://github.com/user-attachments/assets/3a1f8e80-dabc-4cff-8854-c34fe7190d78)
+
+![Screenshot from 2024-11-29 13-43-02](https://github.com/user-attachments/assets/123305df-fe7c-431b-b6b1-bc23c9d1c170)
+
+![Screenshot from 2024-11-29 13-44-20](https://github.com/user-attachments/assets/76d39baf-0c48-4a7d-a5cb-2a2f40e01171)
+
+
 ## File to Edit: /etc/sudoers
 Add the line to grant varun privileges:
 varun ALL=(ALL) ALL
 
+![Screenshot from 2024-11-29 13-46-00](https://github.com/user-attachments/assets/ba1b5578-de11-41f8-97f4-b4d5d3d80b58)
 
 
 
