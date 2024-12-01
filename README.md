@@ -1,5 +1,38 @@
 # linux-user-and-group-guide
 
+## Table of Contents
+1. [Search Words](#1-search-words)
+2. [Run Multiple Commands](#2-run-multiple-commands)
+3. [Pipe Command](#3-pipe-command)
+4. [User Management](#4-user-management)
+    - [Create a User](#create-a-user)
+    - [View All Users](#view-all-users)
+    - [Verify User's Home Directory](#verify-users-home-directory)
+    - [Delete User](#delete-user)
+    - [Create User Again](#create-user-again)
+    - [Change Username](#change-username)
+    - [Change User ID](#change-user-id)
+    - [Add Full Name](#add-full-name)
+    - [Change Home Directory](#change-home-directory)
+    - [Change Shell Location](#change-shell-location)
+    - [Set Password](#set-password)
+    - [Login and Check Password File](#login-and-check-password-file)
+    - [Manage Password Settings](#manage-password-settings)
+5. [Group Management](#5-group-management)
+    - [Add Group](#add-group)
+    - [Delete Group](#delete-group)
+    - [Modify Group ID](#modify-group-id)
+    - [Change User's Primary Group](#change-users-primary-group)
+    - [Add User to Additional Groups](#add-user-to-additional-groups)
+    - [Remove User from Group](#remove-user-from-group)
+    - [Add Multiple Users to a Group](#add-multiple-users-to-a-group)
+    - [Check Group Members](#check-group-members)
+    - [Add User to Multiple Groups](#add-user-to-multiple-groups)
+    - [Change Group Name](#change-group-name)
+6. [Assign Permissions for User Management](#6-assign-permissions-for-user-management)
+
+---
+
 # 1) Search Words
 **Command**: grep
 
