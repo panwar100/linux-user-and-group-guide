@@ -260,10 +260,3 @@ Add the line to grant varun privileges:
 varun ALL=(ALL) ALL
 
 ![Screenshot from 2024-11-29 13-46-00](https://github.com/user-attachments/assets/ba1b5578-de11-41f8-97f4-b4d5d3d80b58)
-
-
-
-
-Description: Comprehensive guide for managing users, groups, and permissions on Linux, with practical examples and screenshots.
-
-
